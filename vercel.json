@@ -1,0 +1,14 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/aditya_portfolio/index.html"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/aditya_portfolio/:path*"
+    }
+  ]
+}
