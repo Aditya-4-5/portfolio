@@ -4,7 +4,11 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/$1"
+      "destination": "/aditya_portfolio/"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/aditya_portfolio/$1"
     }
   ]
 }
