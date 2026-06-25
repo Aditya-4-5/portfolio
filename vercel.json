@@ -4,11 +4,7 @@
   "rewrites": [
     {
       "source": "/",
-      "destination": "/aditya_portfolio/index.html"
-    },
-    {
-      "source": "/:path*",
-      "destination": "/aditya_portfolio/:path*"
+      "destination": "/$1"
     }
   ]
 }
